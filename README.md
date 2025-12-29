@@ -28,4 +28,7 @@ The website has a sidebar that opens up and shows users other stuff they can buy
 
 ## 7 . Technology Stack
 
-The website is written using JavaScript React, HTML5, and Tailwind CSS.
+- JavaScript
+- React
+- Tailwind CSS
+
