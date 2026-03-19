@@ -69,8 +69,8 @@ const Cards = () => {
         >
           <img
             className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
-            src="https://cdn.shopify.com/s/files/1/0256/6756/7713/t/3/assets/a507c4f61a09--carousel-14-l.jpg?1132"
-            alt="/"
+            src="https://data2.nssmag.com/images/galleries/21166/THAMESMMXX-8.jpg"
+            alt="/thames skateboarding"
           />
         </a>
       </div>
@@ -93,7 +93,7 @@ const Cards = () => {
           <img
             className="max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl"
             src="https://cdn.shopify.com/s/files/1/1186/8190/collections/Fucking_Awsome.jpg?v=1625556885"
-            alt="/"
+            alt="Fucking Awesome Skateboarding"
           />
         </a>
       </div>
@@ -111,7 +111,7 @@ const Cards = () => {
         <a href="https://lovenskate.com/shop/" rel="noreferrer" target="_blank">
           <img
             className="max-h-[160px] md:max-h-[200px] w-full object-contain bg-white rounded-xl"
-            src="https://lovenskate.com/wp-content/uploads/2019/09/lovenskate_letterpress_flat.jpg"
+            src="https://lovenskate.com/wp-content/uploads/2025/06/Lovenskat_letter_press_logo_SQ-e1750771302801.jpg"
             alt="Love N Skate"
           />
         </a>
