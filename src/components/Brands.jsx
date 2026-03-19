@@ -127,15 +127,15 @@ const Brands = () => {
 
       {/* Display Products */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-4">
-        {brands.map((item, index, link) => (
+        {brands.map((item) => (
           <div
-            key={index}
-            className="border shadow-lg rounded-md hover:scale-105 duration-300"
+            key={item.id}
+            className="border shadow-lg rounded-md hover:scale-105 duration-300 flex h-full flex-col overflow-hidden"
           >
-            <a href={item.link} target="_blank" rel="noreferrer">
-              <img src={item.image} alt={item.name} />{" "}
+            <a href={item.link} target="_blank" rel="noreferrer" className="w-full">
+              <img src={item.image} alt={item.name} className="w-full" />
             </a>
-            <div className="py-3 px-2">
+            <div className="mt-auto py-3 px-2">
               <p style={{ color: "white" }}>{item.name}</p>
               <p>
                 <span style={{ color: "white" }}>{item.price}</span>
